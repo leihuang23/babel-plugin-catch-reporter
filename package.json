@@ -1,0 +1,42 @@
+{
+    "name": "babel-plugin-catch-reporter",
+    "version": "0.1.4",
+    "description": "A babel plugin that automatically reports errors in your program",
+    "main": "lib/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "compile": "rimraf lib && babel src --out-dir lib"
+    },
+    "keywords": [
+        "babel",
+        "catch",
+        "sentry",
+        "report"
+    ],
+    "author": "Levi Wong",
+    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/catmorphic/babel-plugin-catch-reporter.git"
+    },
+    "homepage": "https://github.com/catmorphic/babel-plugin-catch-reporter#readme",
+    "bugs": {
+        "url": "https://github.com/catmorphic/babel-plugin-catch-reporter/issues"
+    },
+    "dependencies": {
+        "@babel/helper-plugin-utils": "^7.10.4",
+        "@babel/types": "^7.12.7",
+        "babel-template": "^6.26.0"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.12.8",
+        "@babel/helper-plugin-test-runner": "^7.10.4",
+        "@babel/plugin-transform-destructuring": "^7.12.1",
+        "@babel/preset-env": "^7.12.7",
+        "babel-preset-minify": "^0.5.1",
+        "eslint": "^7.14.0",
+        "eslint-config-prettier": "^6.15.0",
+        "prettier": "^2.2.1",
+        "rimraf": "^3.0.2"
+    }
+}

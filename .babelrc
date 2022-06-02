@@ -1,0 +1,21 @@
+{
+    "presets": [
+        [
+            "@babel/preset-env",
+            {
+                "targets": {
+                    "node": true
+                }
+            }
+        ],
+        [
+            "minify",
+            {
+                "mangle": false
+            }
+        ]
+    ],
+    "plugins": [
+        "@babel/plugin-transform-destructuring"
+    ]
+}
